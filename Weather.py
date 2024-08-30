@@ -49,7 +49,7 @@ class WeatherApp:
 
     def get_weather(self):
         location = self.location_entry.get()
-        api_key = "f6a5f76fa727b6bdc3859e18f661ec9e"
+        api_key = "Add your OpenWeatherMap API key"
         base_url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
         try:
             response = requests.get(base_url)
